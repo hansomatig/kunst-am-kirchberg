@@ -1,7 +1,7 @@
 # kunst-am-kirchberg
 
 ## Lernziele
-- [ ] Setup, Git Workflow, Markdown
+- [x] Setup, Git Workflow, Markdown
 - [ ] HTML
 - [ ] CSS
 - [ ] SCSS
@@ -10,7 +10,6 @@
 - [ ] Includes
 - [ ] Liquid Templates
 - [ ] Projektmanagement Basics
-- [ ] 
 
 ---
 
