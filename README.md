@@ -10,7 +10,7 @@
 - [ ] Includes
 - [ ] Liquid Templates
 - [ ] Projektmanagement Basics
-- [ ] Git Basics 101: Mergen, Branches, etc.
+- [ ] Git Basics 101: Pull Requests & Merge, Branches, etc.
 
 ---
 
