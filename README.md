@@ -1,7 +1,7 @@
 # kunst-am-kirchberg
 
 **markdown** = Dateiformat
-- umwandlung in html
+- Umwandlung in html
 - Dateiendung `.md` oder `.markdown`
 - [Dokumentation](https://daringfireball.net/projects/markdown/basics)
 
@@ -12,5 +12,4 @@
 - `git clone <URL>` -> Herunterladen eines Repositories 
 - `git pull` -> Herunterladen des neusten Standes
 - `git push` -> Hochladen des neusten Standes
-- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung
-                        
+- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung           
