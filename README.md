@@ -16,7 +16,7 @@
 
 
 ### Lernziele
-- [ ] 15.05.: Markdown
+- [ ] 15.05.: Setup, Git Workflow, Markdown
 - [ ] HTML
 - [ ] CSS
 - [ ] SCSS
