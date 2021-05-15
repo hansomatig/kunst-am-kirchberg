@@ -1,5 +1,19 @@
 # kunst-am-kirchberg
 
+## Lernziele
+- [ ] 15.05.: Setup, Git Workflow, Markdown
+- [ ] HTML
+- [ ] CSS
+- [ ] SCSS
+- [ ] YAML
+- [ ] Layouts
+- [ ] Includes
+- [ ] Liquid Templates
+
+---
+
+## 
+
 **markdown** = Dateiformat
 - Umwandlung in html
 - Dateiendung `.md` oder `.markdown`
@@ -13,14 +27,3 @@
 - `git pull` -> Herunterladen des neusten Standes
 - `git push` -> Hochladen des neusten Standes
 - `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung           
-
-
-### Lernziele
-- [ ] 15.05.: Setup, Git Workflow, Markdown
-- [ ] HTML
-- [ ] CSS
-- [ ] SCSS
-- [ ] YAML
-- [ ] Layouts
-- [ ] Includes
-- [ ] Liquid Templates
