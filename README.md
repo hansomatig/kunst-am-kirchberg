@@ -1,7 +1,7 @@
 # kunst-am-kirchberg
 
 ## Lernziele
-- [ ] 15.05.: Setup, Git Workflow, Markdown
+- [ ] Setup, Git Workflow, Markdown
 - [ ] HTML
 - [ ] CSS
 - [ ] SCSS
@@ -12,7 +12,7 @@
 
 ---
 
-## 
+## Lektionen
 
 **markdown** = Dateiformat
 - Umwandlung in html
