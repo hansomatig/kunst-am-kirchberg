@@ -13,3 +13,14 @@
 - `git pull` -> Herunterladen des neusten Standes
 - `git push` -> Hochladen des neusten Standes
 - `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung           
+
+
+### Lernziele
+- [ ] 15.05.: Markdown
+- [ ] HTML
+- [ ] CSS
+- [ ] SCSS
+- [ ] YAML
+- [ ] Layouts
+- [ ] Includes
+- [ ] Liquid Templates
