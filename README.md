@@ -1,8 +1,8 @@
 # kunst-am-kirchberg
 
 ## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
-- Markdown verinnerlichen
-- vlt. Markdown Tabelle erstellen
+-[x] Markdown verinnerlichen
+-[x] vlt. Markdown Tabelle erstellen
 
 ## Lernziele
 - [x] Setup, Git Workflow, Markdown
