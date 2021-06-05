@@ -32,7 +32,7 @@ defaults:
     price:
     year:
     title: 
-    available:
+    is_available:
     categorie: 
     dimensions: 
     artist:
