@@ -1,5 +1,9 @@
 # kunst-am-kirchberg
 
+## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
+- Markdown verinnerlichen
+- vlt. Markdown Tabelle erstellen
+
 ## Lernziele
 - [x] Setup, Git Workflow, Markdown
 - [ ] HTML
@@ -11,8 +15,6 @@
 - [ ] Liquid Templates
 - [ ] Projektmanagement Basics
 - [ ] Git Basics 101: Pull Requests & Merge, Branches, etc.
-
----
 
 ## Lektionen
 
