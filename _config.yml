@@ -1,39 +1,47 @@
+---
 title: Kunst am Kirchberg
-description: >- 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" 
-url: ""
-
-collections: 
-  artists: 
+timezone: UTC
+collections:
+  artists:
+    title: Artists
     output: true
-    permalink: /kuenstler/:title.html
-  artworks: 
+    permalink: "/kuenstler/:title.html"
+  artworks:
+    title: Artworks
     output: true
-    permalink: /kunstwerke/:title.html
-defaults: 
-- scope: 
-    path: ""
+    permalink: "/kunstwerke/:title.html"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
     type: artists
   values:
     layout: artist
-    image:
-    wiki:
-- scope: 
-    path: ""
+    image: 
+    wiki: 
+- scope:
+    path: ''
     type: artworks
   values:
     layout: artwork
     gallery:
-    - image:
-      alt:
-    price:
-    year:
+    - image: 
+      alt: 
+    price: 
+    year: 
     title: 
-    available:
+    available: 
     categorie: 
     dimensions: 
-    artist:
+    artist: 
     style: 
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+baseurl: ''
+url: ''

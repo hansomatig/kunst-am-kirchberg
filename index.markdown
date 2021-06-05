@@ -1,6 +1,6 @@
 ---
-layout: default
 title: startseite
+layout: default
 ---
 
 {% for artist in site.artists %}
