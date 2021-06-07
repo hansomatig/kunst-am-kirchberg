@@ -25,9 +25,12 @@
 
 **jekyll** = static site generator 
 - Wandelt Content Dateien z.B. Markdown in eine fertige Webseite um
+- kann `liquid templates` verarbeiten
 
 **git** = Versionskontrollsystem 
 - `git clone <URL>` -> Herunterladen eines Repositories 
 - `git pull` -> Herunterladen des neusten Standes
 - `git push` -> Hochladen des neusten Standes
-- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung           
+- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung
+
+**liquid** = 
