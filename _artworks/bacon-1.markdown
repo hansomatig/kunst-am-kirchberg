@@ -1,6 +1,7 @@
 ---
 title: Bacon_1
 date: 2021-06-08 19:24:00 Z
+position: 0
 gallery:
 - image: "/uploads/IMGP6965.JPG"
 price: 6000
