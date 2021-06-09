@@ -5,7 +5,7 @@ gallery:
 - image: "/uploads/IMGP6972.JPG"
 price: 2800
 is_available: true
-categorie: Mischtechnik
+category: Mischtechnik
 artist: Jehuda Bacon
 ---
 

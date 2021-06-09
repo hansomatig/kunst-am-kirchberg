@@ -5,7 +5,7 @@ gallery:
 - image: "/uploads/IMGP6971.JPG"
 price: 3400
 is_available: true
-categorie: Mischtechnik
+category: Mischtechnik
 dimensions: 120 x 60
 artist: Jehuda Bacon
 ---

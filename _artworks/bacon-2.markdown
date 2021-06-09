@@ -7,7 +7,7 @@ gallery:
 price: 2800
 year: ca. 1960
 is_available: true
-categorie: Mischtechnik
+category: Mischtechnik
 dimensions: 80 x 50 cm
 artist: Jehuda Bacon
 ---

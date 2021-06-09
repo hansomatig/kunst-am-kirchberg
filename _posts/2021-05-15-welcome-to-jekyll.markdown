@@ -1,7 +1,7 @@
 ---
 title: Welcome to Jekyll!
 date: 2021-05-15 15:34:13 Z
-categories:
+categorys:
 - jekyll
 - update
 layout: post

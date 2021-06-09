@@ -7,7 +7,7 @@ gallery:
 price: 2600
 year: unbekannt
 is_available: true
-categorie: Mischtechnik
+category: Mischtechnik
 dimensions: 120 x 60 cm
 artist: Jehuda Bacon
 ---

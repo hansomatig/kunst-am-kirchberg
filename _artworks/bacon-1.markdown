@@ -6,7 +6,7 @@ gallery:
 - image: "/uploads/IMGP6965.JPG"
 price: 6000
 is_available: true
-categorie: Öl auf Leinwand
+category: Öl auf Leinwand
 dimensions: 120 x 63 cm
 artist: Jehuda Bacon
 ---
