@@ -2,10 +2,7 @@
 
 ## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
 
-- [x] Markdown verinnerlichen
-- [x] vlt. Markdown Tabelle erstellen
-- [ ] Dokumentation von liquid, yaml, collections, assets 
-- [x] Einpflegen von Künstlern und Kunstwerken
+- [ ] Artwork erweitern
 
 ## Lernziele
 
@@ -37,7 +34,8 @@
 - `git clone <URL>` -> Herunterladen eines Repositories 
 - `git pull` -> Herunterladen des neusten Standes
 - `git push` -> Hochladen des neusten Standes
-- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung  
+- `git commit -m "<Was habe ich in dieser Version gemacht>"` -> Neuer Zwischenstand abspeichern + Änderungsbeschreibung
+- `git checkout BRANCH` -> wechseln zu einen anderen Branch
 
 **liquid** = Programmiersprache (Template engine) die Befehle entgegen nehmen kann und in eine Datei schreibt
 
