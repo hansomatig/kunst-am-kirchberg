@@ -2,7 +2,7 @@
 
 ## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
 
-- [ ] Artwork erweitern
+- [x] Artwork erweitern
 
 ## Lernziele
 
