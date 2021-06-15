@@ -4,7 +4,7 @@
 
 - [x] Markdown verinnerlichen
 - [x] vlt. Markdown Tabelle erstellen
-- [ ] Dokumentation von liquid, yaml, collections, assets 
+- [x] Dokumentation von liquid, yaml, collections, assets 
 - [x] Einpflegen von Künstlern und Kunstwerken
 
 ## Lernziele
@@ -55,3 +55,5 @@
 **asset** = Vorlage
 
 - wird in YAML geschrieben
+
+

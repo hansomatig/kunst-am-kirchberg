@@ -3,9 +3,24 @@ layout: default
 ---
 
 {{content}}
+
+{%for image in page.gallery%}
+    <img src="{page.image}}" height=100>
+{%endfor%}
+
+<br>
 {% if page.is_available%}
 Bild ist verfügbar
-
 {%else%}
 Bild nicht mehr verfügbar
 {%endif%}
+<br>
+Kosten: {{page.price}}
+<br>
+{{page.category}}
+<br>
+Dimensionen: {{page.dimensions}}
+<br>
+<a href="{{artist.html}}">
+    {{page.artist}}
+</a>
