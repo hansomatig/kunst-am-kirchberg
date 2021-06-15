@@ -3,3 +3,27 @@ layout: default
 ---
 
 {{content}}
+
+{%for item in page.gallery%}
+    
+    <img src="{{item.image}}" height="100">
+
+{%endfor%}
+<br>
+{% if page.is_available%}
+Bild ist verfügbar
+{%else%}
+Bild nicht mehr verfügbar
+{%endif%}
+<br>
+Kosten: {{page.price}}
+<br>
+{{page.category}}
+<br>
+Dimensionen: {{page.dimensions}}
+<br>
+{% assign artist = site.artists | where: "title", page.artist | first%}
+
+<a href="{{artist.url}}">
+    {{page.artist}}
+</a>

@@ -2,7 +2,10 @@
 
 ## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
 
+
 - [x] Artwork erweitern
+
+
 
 ## Lernziele
 
@@ -28,6 +31,7 @@
 **jekyll** = static site generator 
 
 - Wandelt Content Dateien z.B. Markdown in eine fertige Webseite um
+- kann `liquid templates` verarbeiten
 
 **git** = Versionskontrollsystem 
 
@@ -52,3 +56,5 @@
 **asset** = Vorlage
 
 - wird in YAML geschrieben
+
+

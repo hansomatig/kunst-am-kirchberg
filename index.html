@@ -1,0 +1,27 @@
+---
+title: startseite
+layout: default
+---
+
+{% for artist in site.artists %}
+
+    <a href="{{artist.url}}">
+        <h2>
+        {{artist.title}}
+        </h2>
+        
+        {% assign artworks = site.artworks | where: "artist", artist.title %}
+        {% for artwork in artworks limit : 3%}
+        
+        <img src="{{artwork.gallery[0].image}}" height="100">
+        
+        
+        {{artwork.title}}
+        <br> 
+
+
+        {%endfor%}
+    </a>
+
+{% endfor %}
+
