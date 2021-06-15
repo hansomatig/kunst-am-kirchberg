@@ -5,7 +5,12 @@ categories:
 - Mischtechnik
 position: 3
 gallery:
-- image: "/uploads/IMGP6967.JPG"
+- image: "/uploads/IMGP6967-0c7849.JPG"
+  alt: 
+- image: "/uploads/IMGP6967-d2279b.JPG"
+  alt: 
+- image: "/uploads/IMGP6967-73f59d.JPG"
+  alt: 
 price: 2600
 year: unbekannt
 is_available: true
