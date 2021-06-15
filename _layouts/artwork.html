@@ -4,10 +4,11 @@ layout: default
 
 {{content}}
 
-{%for image in page.gallery%}
-    <img src="{page.image}}" height=100>
-{%endfor%}
+{%for item in page.gallery%}
+    
+    <img src="{{item.image}}" height="100">
 
+{%endfor%}
 <br>
 {% if page.is_available%}
 Bild ist verfügbar
@@ -21,6 +22,8 @@ Kosten: {{page.price}}
 <br>
 Dimensionen: {{page.dimensions}}
 <br>
-<a href="{{artist.html}}">
+{% assign artist = site.artists | where: "title", page.artist | first%}
+
+<a href="{{artist.url}}">
     {{page.artist}}
 </a>
