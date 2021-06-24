@@ -6,7 +6,6 @@
 - [x] Artwork erweitern
 
 
-
 ## Lernziele
 
 - [x] Setup, Git Workflow, Markdown
