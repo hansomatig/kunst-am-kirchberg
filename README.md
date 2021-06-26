@@ -55,6 +55,7 @@
 
 **scss** = Eine Erweiterung von CSS mit der mehr möglich ist
 
+- [Dokumentation](https://sass-lang.com/)
 - muss erst implementiert werden
 - `.klassenname{...}` -> erstellt neue Klasse
 - `klassenname{...}` -> verändert bestehende Klassen, wie `a` oder `li`
