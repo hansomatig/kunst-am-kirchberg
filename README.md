@@ -53,4 +53,14 @@
 
 - wird in YAML geschrieben
 
+**scss** = Eine Erweiterung von CSS mit der mehr möglich ist
+
+- muss erst implementiert werden
+- `.klassenname{...}` -> erstellt neue Klasse
+- `klassenname{...}` -> verändert bestehende Klassen, wie `a` oder `li`
+- Klassen können auch inneinader verschaltelt werden um präziser in der Anwendung zu sein
+- `<nav class="klassennamen">` -> abrufen der Klasse
+
+
+
 
