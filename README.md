@@ -3,9 +3,6 @@
 ## Aufgaben, Links, Artikel, usw. des nächsten Lernabschnittes
 
 
-- [x] Artwork erweitern
-
-
 ## Lernziele
 
 - [x] Setup, Git Workflow, Markdown
