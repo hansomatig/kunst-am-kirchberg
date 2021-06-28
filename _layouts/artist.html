@@ -4,12 +4,13 @@ layout: default
 
 {{content}}
 {% assign artworks = site.artworks | where: "artist", page.title %}
+<div class="grid">
 {% for artwork in artworks%}
 <a href="{{artwork.url}}">
-    <img src="{{artwork.gallery[0].image}}" height="100">
-    
-    {{artwork.title}}
-    <br>
-
+    <img src="{{artwork.gallery[0].image}}">
+    <span class="title">
+        {{artwork.title}}
+    </span>
 </a>
 {%endfor%}
+</div>
