@@ -53,10 +53,13 @@
 
 - wird in YAML geschrieben
 
+**id** = einmalige Klasse
+
 **scss** = Eine Erweiterung von CSS mit der mehr möglich ist
 
 - [Dokumentation](https://sass-lang.com/)
 - muss erst implementiert werden
+- `#klassenname{...}` -> erstellt eine ID
 - `.klassenname{...}` -> erstellt neue Klasse
 - `klassenname{...}` -> verändert bestehende Klassen, wie `a` oder `li`
 - Klassen können auch inneinader verschaltelt werden um präziser in der Anwendung zu sein
