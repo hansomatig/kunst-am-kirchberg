@@ -1,6 +1,7 @@
 ---
 title: Test-Category
 date: 2021-07-04 14:56:00 Z
+position: 10
 gallery:
 - image: "/uploads/IMGP7002.jpeg"
 price: 2004

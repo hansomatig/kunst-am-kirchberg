@@ -3,7 +3,7 @@ title: Bacon_1
 date: 2021-06-08 19:24:00 Z
 categories:
 - Öl auf Leinwand
-position: 0
+position: 4
 gallery:
 - image: "/uploads/IMGP6965.JPG"
 price: 6000
