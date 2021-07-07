@@ -2,11 +2,12 @@ body {
     font-family: $standard-font;
     margin: 0;
     font-size: $standard-font-size;
+ 
 }
 
 main {
     margin: auto;
     max-width: 900px;
     min-height: 95vh;
-    
+    margin-bottom: $standard-height-2;
 }

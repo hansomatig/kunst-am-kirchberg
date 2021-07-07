@@ -4,14 +4,19 @@
     display: flex;
 
     nav {
-        border-top: 1px solid;
+        border-top: $standard-border-width solid;
         .footer-links {
+            padding: 0 0 0 $standard-height-1;
+            margin: 0;
             list-style: none;
             display: inline-block;
             li {
+                line-height: $standard-height-2;
+                padding: 0;
+                margin: 0;
                 display: inline-block;
                 a {
-                    margin: 0 2rem 0 0;
+                    margin: 0 $standard-height-1 0 0;
                     font-size: $nav-font-size;
                 }
             }

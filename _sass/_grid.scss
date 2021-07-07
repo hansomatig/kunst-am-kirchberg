@@ -1,14 +1,15 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
+    grid-column-gap: $standard-height-1;
+    grid-row-gap: $standard-height-1;
     a{
         color: black;
         text-decoration: none;
-        border-bottom: 2px solid black;
+        border-bottom: $standard-border-width solid black;
         
         img{
+            max-height: 250px;
             object-fit: cover;
             width: 100%;
             
@@ -16,14 +17,6 @@
         .title{
             display: inline-block;
         }
-        .chip{
-            display: block;
-            float: right;
-            margin: 0 10px 0 10px;
-            padding: 0 0 0 3px;
-            border-width: 2px;
-            border-style: solid none none solid;
-            font-size: 1rem;
-        }
+        
     }
 }
