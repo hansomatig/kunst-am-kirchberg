@@ -3,7 +3,7 @@ title: Alle Kunstwerke
 layout: default
 ---
 
-{% assign artworks = site.artworks%}
+{% assign artworks = site.artworks | sort: 'price' | reverse%}
 <div class="grid">
     {% for artwork in artworks%}
     <a href="{{artwork.url}}">
