@@ -4,11 +4,15 @@ layout: default
 
 {{content}}
 
+<div class="centerContent">
 {%for item in page.gallery%}
-    
-    <img src="{{item.image}}" height="100">
+
+<img src="{{item.image}}" class="artworkImage">
 
 {%endfor%}
+
+</div>
+
 <br>
 {% if page.is_available%}
 Bild ist verfügbar
