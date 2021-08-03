@@ -1,0 +1,12 @@
+.infoBox{
+    margin-top: $standard-height-1;
+    width: 50%;
+    
+    div{
+        display: flex;
+        margin: 1rem 0 1rem 0;
+        border-bottom: 2px solid black;
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+}

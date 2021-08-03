@@ -10,24 +10,42 @@ layout: default
 <img src="{{item.image}}" class="artworkImage">
 
 {%endfor%}
-
 </div>
-
-<br>
-{% if page.is_available%}
-Bild ist verfügbar
-{%else%}
-Bild nicht mehr verfügbar
-{%endif%}
-<br>
-Kosten: {{page.price}}
-<br>
-Technik: {{page.categories}}
-<br>
-Dimensionen: {{page.dimensions}}
-<br>
-{% assign artist = site.artists | where: "title", page.artist | first%}
-
-<a href="{{artist.url}}">
-    {{page.artist}}
-</a>
+<div class="infoBox">
+    <div>
+        <span>
+            Kosten
+        </span>
+        <span>
+            {{page.price}}
+        </span>
+    </div>
+    <div>
+        <span>
+            Technik
+        </span>
+        <span>
+            {{page.categories}}
+        </span>
+    </div>
+    <div>
+        <span>
+            Größe
+        </span>
+        <span>
+            {{page.dimensions}}
+        </span>
+    </div>
+    <div>
+        <span>
+            Verfügbarkeit
+        </span>
+        <span>
+            {% if page.is_available%}
+                Bild ist verfügbar
+            {%else%}
+                Bild nicht mehr verfügbar
+            {%endif%}
+        </span>
+    </div>
+</div>
