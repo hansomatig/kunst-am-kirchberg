@@ -6,6 +6,9 @@ body {
 }
 
 main {
+    h1{
+        margin: $standard-height-1 0 $standard-height-1 0;
+    }
     padding-top: $standard-height-3;
     margin: auto;
     max-width: 900px;
