@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{{content}}
+{% assign artworks = site.artworks | where: "exhibition", page.title %}
+<div class="grid">
+    {% for artwork in artworks%}
+    <a href="{{artwork.url}}">
+        <img src="{{artwork.gallery[0].image}}">
+        <span class="title">
+            {{artwork.title}}
+        </span>
+        <div class="chip">
+            {{artwork.categories.first}}
+        </div>
+        <div class="chip">
+            {% if artwork.year != nil%}
+            {{artwork.year}}
+            {%else%}
+            Jahr unbekannt
+            {%endif%}
+        </div>
+    </a>
+    {%endfor%}
+</div>

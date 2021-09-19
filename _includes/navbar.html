@@ -28,9 +28,12 @@
                 </a>
             </li>
             <li>
-                <a>
-                Aktuell in Gallerie
-                </a>
+               {% assign aktuelle_austellungen = site.exhibtions | where: "is_current", True%}
+               {% for austellung in aktuelle_austellungen%}
+               <a href="{{austellung.url}}">
+                    Aktuelle Austellung
+               </a>
+               {%endfor%}
             </li>
         </ul>
     </nav>
