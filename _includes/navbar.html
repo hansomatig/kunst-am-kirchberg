@@ -22,19 +22,7 @@
                     Andreas Felger
                 </a>
             </li>
-            <li>
-                <a href="/allArtworks.html">
-                    Alle Kunstwerke
-                </a>
-            </li>
-            <li>
-               {% assign aktuelle_austellungen = site.exhibtions | where: "is_current", True%}
-               {% for austellung in aktuelle_austellungen%}
-               <a href="{{austellung.url}}">
-                    Aktuelle Austellung
-               </a>
-               {%endfor%}
-            </li>
-        </ul>
+            
+       </ul>
     </nav>
 </header>

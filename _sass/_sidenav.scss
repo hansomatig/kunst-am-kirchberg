@@ -1,0 +1,24 @@
+.sidenav{
+    flex-basis: 10rem;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    height: 100%;
+    margin: 0.75rem;
+    background-color: white;
+    .navbar-links {
+        list-style: none;
+        padding: 0;
+        display: inline-block;
+        
+        li {
+            display: inline-block;
+            margin: 1rem 1rem 1rem 1rem;
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: $nav-font-size;
+            }
+        }
+    }
+}

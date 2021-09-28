@@ -1,4 +1,5 @@
 body {
+    display: flex;
     font-family: $standard-font;
     margin: 0;
     font-size: $standard-font-size;
@@ -9,7 +10,7 @@ main {
     h1{
         margin: $standard-height-1 0 $standard-height-1 0;
     }
-    padding-top: $standard-height-3;
+    padding-top: $standard-height-1;
     margin: auto;
     max-width: 900px;
     min-height: 95vh;

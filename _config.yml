@@ -30,14 +30,6 @@ defaults:
     wiki: 
 - scope:
     path: ''
-    type: exhibitions
-  values:
-    layout: exhibition
-    image: 
-    is_current: 
-    exhibition_date: 
-- scope:
-    path: ''
     type: artworks
   values:
     layout: artwork
