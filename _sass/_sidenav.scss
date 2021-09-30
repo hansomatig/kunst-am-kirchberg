@@ -1,24 +1,50 @@
 .sidenav{
     flex-basis: 10rem;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     top: 0;
     height: 100%;
-    margin: 0.75rem;
+    margin: 0.75rem 0.75rem 0.75rem 1rem;
     background-color: white;
     .navbar-links {
+        @media screen and (max-width: 800px) {
+            display: flex;
+            margin: 0;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            align-items: center;
+
+        }
+
         list-style: none;
         padding: 0;
         display: inline-block;
-        
+
+        hr{
+            height: $standard-border-width;
+            background-color: black;
+            border: none;
+            margin: 0.75rem 1rem 0.75rem 0;
+            width: 90%;
+            @media screen and (max-width: 800px) {
+                width: 1px;
+                height: 3rem;
+    
+            }
+        }
+
         li {
-            display: inline-block;
-            margin: 1rem 1rem 1rem 1rem;
+            margin: 0 1rem 1rem 0;
             a {
                 text-decoration: none;
                 color: rgb(0, 0, 0);
                 font-size: $nav-font-size;
             }
+            &.grey a{
+                color: rgb(121, 121, 121);
+            }
         }
+        
+
     }
 }

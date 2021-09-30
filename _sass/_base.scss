@@ -3,6 +3,9 @@ body {
     font-family: $standard-font;
     margin: 0;
     font-size: $standard-font-size;
+    @media screen and (max-width: (800px)){
+        flex-direction: column;
+    }
  
 }
 

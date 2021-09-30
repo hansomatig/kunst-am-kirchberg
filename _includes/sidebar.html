@@ -7,22 +7,22 @@
                 <img src="/uploads/K_Logo.jpg" alt="" height="50">
             </a>
         </li>
+        {%for artist in site.artists%}
         <li>
-
-
-            <a href="/kuenstler/jehuda-bacon.html">
-                Jehuda Bacon
-
+            <a href="{{artist.url}}">
+                {{artist.title}}
             </a>
         </li>
-        <li>
-            <a href="/kuenstler/anja-schwarz.html">
-                Anja Schwarz
-            </a>
-        </li>
-        <li>
+        {%endfor%}
+        <hr>
+        <li class="grey">
             <a href="/kuenstler/andreas-felger.html">
-                Andreas Felger
+                Kontakt
+            </a>
+        </li>
+        <li class="grey">
+            <a href="/kuenstler/andreas-felger.html">
+                Impressum
             </a>
         </li>
 
