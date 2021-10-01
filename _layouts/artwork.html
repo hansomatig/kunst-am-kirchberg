@@ -3,18 +3,18 @@ layout: default
 ---
 
 <div class="centerContent">
-{%for item in page.gallery%}
+    {%for item in page.gallery%}
 
-<img src="{{item.image}}" class="artworkImage">
+    <img src="{{item.image}}" class="artworkImage">
 
-{%endfor%}
+    {%endfor%}
 </div>
 <div class="infoText">
-<span>
-{{page.categories}}/{{page.year}}/{{page.dimensions}}/{{page.price}}
-</span>
+    <span>
+        {{page.categories}}/{{page.year}}/{{page.dimensions}}/{{page.price}}
+    </span>
 
-<div class="number">
-    {{page.number}}
-</div>
+    <div class="number">
+        {{page.number}}
+    </div>
 </div>
