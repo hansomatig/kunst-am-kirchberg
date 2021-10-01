@@ -1,12 +1,10 @@
 <div class="sidenav">
-
+    <a href="/" class="logo">
+        <img src="/uploads/K_Logo.jpg" alt="" height="50">
+    </a>
 
     <ul class="navbar-links">
-        <li>
-            <a href="/" class="logo">
-                <img src="/uploads/K_Logo.jpg" alt="" height="50">
-            </a>
-        </li>
+
         {%for artist in site.artists%}
         <li>
             <a href="{{artist.url}}">
