@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-{{content}}
-
 <div class="centerContent">
 {%for item in page.gallery%}
 
@@ -11,41 +8,12 @@ layout: default
 
 {%endfor%}
 </div>
-<div class="infoBox">
-    <div>
-        <span>
-            Kosten
-        </span>
-        <span>
-            {{page.price}}
-        </span>
-    </div>
-    <div>
-        <span>
-            Technik
-        </span>
-        <span>
-            {{page.categories}}
-        </span>
-    </div>
-    <div>
-        <span>
-            Größe
-        </span>
-        <span>
-            {{page.dimensions}}
-        </span>
-    </div>
-    <div>
-        <span>
-            Verfügbarkeit
-        </span>
-        <span>
-            {% if page.is_available%}
-                Bild ist verfügbar
-            {%else%}
-                Bild nicht mehr verfügbar
-            {%endif%}
-        </span>
-    </div>
+<div class="infoText">
+<span>
+{{page.categories}}/{{page.year}}/{{page.dimensions}}/{{page.price}}
+</span>
+
+<div class="number">
+    {{page.number}}
+</div>
 </div>
