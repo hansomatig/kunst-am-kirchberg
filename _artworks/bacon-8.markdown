@@ -8,6 +8,8 @@ gallery:
 - image: "/uploads/IMGP6972.JPG"
 price: 2800
 is_available: true
+dimensions: 230 x 230 cm
 artist: Jehuda Bacon
+number: 8
 ---
 
