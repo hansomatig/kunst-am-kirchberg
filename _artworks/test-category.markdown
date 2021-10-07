@@ -1,5 +1,5 @@
 ---
-title: Test-Category
+title: Test-1000
 date: 2021-07-04 14:56:00 Z
 categories:
 - Bleistiftzeichung
@@ -11,5 +11,6 @@ year: 2021
 is_available: true
 dimensions: 60cm x 60 cm
 artist: Jehuda Bacon
+number: 1000
 ---
 
