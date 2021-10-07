@@ -9,5 +9,6 @@ year: unbekannt
 is_available: true
 dimensions: 120 x 60
 artist: Jehuda Bacon
+number: '0004'
 ---
 
