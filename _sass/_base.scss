@@ -3,25 +3,27 @@ body {
     font-family: $standard-font;
     margin: 0;
     font-size: $standard-font-size;
-    @media screen and (max-width: (800px)){
+    @media screen and (max-width: (800px)) {
         flex-direction: column;
     }
- 
 }
 
 main {
-    h1{
-        margin: $standard-height-1 0 $standard-height-1 0;
+    h1 {
+        margin: 0;
+        text-align: right;
     }
-    padding-top: $standard-height-1;
-    margin: auto;
-    max-width: 900px;
     min-height: 95vh;
-    margin-bottom: $standard-height-2;
+    margin: $standard-height-1 $standard-height-2;
+    flex: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $heading-font;
     font-weight: bold;
 }

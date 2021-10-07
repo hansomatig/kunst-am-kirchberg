@@ -1,11 +1,15 @@
-.artworkImage{
-    height: 75vh;
+.artwork {
+    max-height: 75vh;
+    margin: 1rem;
+    img {
+        object-fit: contain;
+    }
 }
 
-.footerLogo{
+.footerLogo {
     margin: $standard-height-1 0;
 }
 
-.indexLogo{
+.indexLogo {
     height: 100px;
 }

@@ -6,7 +6,7 @@ categories:
 position: 4
 gallery:
 - image: "/uploads/IMGP6965.JPG"
-price: 6000
+price: 6000€
 year: 1918
 is_available: true
 dimensions: 120 x 63 cm

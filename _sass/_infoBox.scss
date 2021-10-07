@@ -1,11 +1,11 @@
-.infoBox{
+.infoBox {
     margin-top: 2rem;
     margin: auto;
     max-width: 70%;
     display: flex;
     flex-direction: column;
-    
-    div{
+
+    div {
         display: flex;
         margin: 1rem 0 1rem 0;
         border-bottom: 2px solid black;
@@ -14,11 +14,19 @@
     }
 }
 
-.infoText{
+.caption {
+    color: $grey;
+    text-align: right;
+    .black {
+        color: black;
+    }
+}
+
+.infoText {
     display: flex;
     margin-top: 3rem;
     justify-content: space-between;
-    .number{
+    .number {
         padding: 0.5rem;
         margin: 0 1rem 0 0;
         color: red;

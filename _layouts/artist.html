@@ -4,23 +4,35 @@ layout: default
 
 {{content}}
 {% assign artworks = site.artworks | where: "artist", page.title %}
-<div class="grid">
-    {% for artwork in artworks%}
-    <a href="{{artwork.url}}">
-        <img src="{{artwork.gallery[0].image}}">
-        <span class="title">
-            {{artwork.title}}
-        </span>
-        <div class="chip">
-            {{artwork.categories.first}}
-        </div>
-        <div class="chip">
-            {% if artwork.year != nil%}
-            {{artwork.year}}
-            {%else%}
-            Jahr unbekannt
-            {%endif%}
-        </div>
-    </a>
-    {%endfor%}
+
+{% for artwork in artworks limit:1 %}
+<amp-img class="artwork" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
+</amp-img>
+
+<div class="caption">
+    <span class="black">
+        {{artwork.number}}
+    </span>
+    |
+    <span>
+        {{artwork.categories | join: ", "}}
+    </span>
+    |
+    <span>
+        {{artwork.dimensions}}
+    </span>
+    |
+    <span>
+        {% if artwork.year != nil%}
+        {{artwork.year}}
+        {%else%}
+        Jahr unbekannt
+        {%endif%}
+    </span>
+    |
+    <span>
+        {{artwork.price}}
+    </span>
 </div>
+
+{%endfor%}
