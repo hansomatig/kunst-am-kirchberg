@@ -16,5 +16,6 @@ year: unbekannt
 is_available: true
 dimensions: 120 x 60 cm
 artist: Jehuda Bacon
+number: '0003'
 ---
 
