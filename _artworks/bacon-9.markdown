@@ -7,5 +7,6 @@ gallery:
 price: 2800
 is_available: true
 artist: Jehuda Bacon
+number: '0009'
 ---
 
