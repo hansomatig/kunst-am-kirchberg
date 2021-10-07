@@ -11,6 +11,6 @@ year: ca. 1900
 is_available: true
 dimensions: 120 x 60
 artist: Jehuda Bacon
-number: 7
+number: '0007'
 ---
 
