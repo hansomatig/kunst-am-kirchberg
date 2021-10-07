@@ -7,5 +7,6 @@ gallery:
 price: 2600
 is_available: true
 artist: Andreas Felger
+number: '0010'
 ---
 
