@@ -3,7 +3,25 @@ title: Startseite
 layout: default
 ---
 
+{{content}}
 <div class="centerContent">
     <img amp src="/uploads/KunstAmKirchberg_Logo.jpg" height="150">
 </div>
 
+
+
+{% for artist in site.artists%}
+{% assign artwork = site.artworks | where: "artist", artist.title | first%}
+
+<div class="artworkContainer home">
+    <amp-img class="artwork" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
+    </amp-img>
+    <div class="caption">
+        <a href="{{artist.url}}">
+            Mehr von {{artist.title}}
+        </a>
+    </div>
+</div>
+
+
+{%endfor%}

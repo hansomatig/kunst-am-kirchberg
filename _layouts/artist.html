@@ -5,34 +5,53 @@ layout: default
 {{content}}
 {% assign artworks = site.artworks | where: "artist", page.title %}
 
-{% for artwork in artworks limit:1 %}
-<amp-img class="artwork" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
-</amp-img>
+<amp-state id="control">
+    <script type="application/json">
+       0
 
-<div class="caption">
-    <span class="black">
-        {{artwork.number}}
-    </span>
-    |
-    <span>
-        {{artwork.categories | join: ", "}}
-    </span>
-    |
-    <span>
-        {{artwork.dimensions}}
-    </span>
-    |
-    <span>
-        {% if artwork.year != nil%}
-        {{artwork.year}}
-        {%else%}
-        Jahr unbekannt
-        {%endif%}
-    </span>
-    |
-    <span>
-        {{artwork.price}}
-    </span>
+    </script>
+</amp-state>
+
+{% assign count = 0 %}
+
+{% for artwork in artworks %}
+<div class="artworkContainer" {%if forloop.first==false %}hidden{%endif%} [hidden]="control!={{count}}"
+    id="{{artwork.number}}">
+    <amp-img class="artwork" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
+    </amp-img>
+
+    <div class="caption">
+        <span class="black">
+            {{artwork.number}}
+        </span>
+        |
+        <span>
+            {{artwork.categories | join: ", "}}
+        </span>
+        |
+        <span>
+            {{artwork.dimensions}}
+        </span>
+        |
+        <span>
+            {% if artwork.year != nil%}
+            {{artwork.year}}
+            {%else%}
+            Jahr unbekannt
+            {%endif%}
+        </span>
+        |
+        <span>
+            {{artwork.price}}
+        </span>
+    </div>
+</div>
+{%assign count = count | plus: 1%}
+{%endfor%}
+
+<div class="leftControl" on="tap:AMP.pushState({ control: control<=0? {{artworks | size | minus: 1}}: control - 1 })">
 </div>
 
-{%endfor%}
+
+<div class="rightControl" on="tap:AMP.pushState({ control: control>={{artworks | size | minus: 1}}? 0: control + 1})">
+</div>
