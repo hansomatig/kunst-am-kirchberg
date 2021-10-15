@@ -14,7 +14,9 @@ main {
         text-align: right;
     }
     position: relative;
-    min-height: 95vh;
+    @media screen and (min-width: 801px){
+        max-height: 100vh;
+    }
     margin: $standard-height-1 $standard-height-2;
     flex: 1;
 }
