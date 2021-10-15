@@ -8,12 +8,19 @@ layout: default
     <img amp src="/uploads/KunstAmKirchberg_Logo.jpg" height="150">
 </div>
 
+<amp-state id="control">
+    <script type="application/json">
+       0
 
+    </script>
+</amp-state>
+
+{% assign count = 0 %}
 
 {% for artist in site.artists%}
 {% assign artwork = site.artworks | where: "artist", artist.title | first%}
 
-<div class="artworkContainer home">
+<div class="artworkContainer home" {%if forloop.first==false %}hidden{%endif%} [hidden]="control!={{count}}">
     <amp-img class="artwork" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
     </amp-img>
     <div class="caption">
@@ -22,6 +29,14 @@ layout: default
         </a>
     </div>
 </div>
-
-
+{%assign count = count | plus: 1%}
 {%endfor%}
+
+<div class="leftControl"
+    on="tap:AMP.pushState({ control: control<=0? {{site.artists | size | minus: 1}}: control - 1 })">
+</div>
+
+
+<div class="rightControl"
+    on="tap:AMP.pushState({ control: control>={{site.artists | size | minus: 1}}? 0: control + 1})">
+</div>
