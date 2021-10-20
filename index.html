@@ -10,7 +10,7 @@ layout: default
 </amp-state>
 
 {% assign count = 0 %}
-
+<div class="carousel">
 {% for artist in site.artists%}
 {% assign artwork = site.artworks | where: "artist", artist.title | first%}
 
@@ -33,4 +33,6 @@ layout: default
 
 <div class="rightControl"
     on="tap:AMP.pushState({ control: control>={{site.artists | size | minus: 1}}? 0: control + 1})">
+</div>
+
 </div>

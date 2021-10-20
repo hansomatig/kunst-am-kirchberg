@@ -1,3 +1,11 @@
+.carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .artworkContainer {
     position: absolute;
     top: 0;
@@ -39,6 +47,7 @@
     left: 0;
     width: 50%;
     z-index: 10000;
+    cursor: url(/uploads/arrow_back.png), pointer;
 }
 
 .rightControl {
@@ -48,6 +57,7 @@
     right: 0;
     width: 50%;
     z-index: 10000;
+    cursor: url(/uploads/arrow_forward.png), pointer;
 }
 
 @media screen and (max-width: 800px) {

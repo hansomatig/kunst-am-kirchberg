@@ -16,6 +16,7 @@ main {
     position: relative;
     @media screen and (min-width: 801px) {
         max-height: 100vh;
+        height: 90vh;
     }
     margin: $standard-height-1 $standard-height-2;
     flex: 1;
