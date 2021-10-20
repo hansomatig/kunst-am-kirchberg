@@ -12,6 +12,16 @@
         top: 1rem;
         left: 1rem;
         z-index: 20000;
+        @media screen and (max-width: 800px) {
+            .desktop {
+                display: none;
+            }
+        }
+        @media screen and (min-width: 801px) {
+            .mobile {
+                display: none;
+            }
+        }
     }
     .navbar-links {
         @media screen and (max-width: 800px) {
@@ -20,13 +30,17 @@
             flex-wrap: nowrap;
             overflow-x: auto;
             align-items: center;
+            margin-top: 1rem;
+        }
+
+        @media screen and (min-width: 801px) {
+            margin-top: 100px;
         }
 
         list-style: none;
         padding: 0;
         display: inline-block;
         align-items: center;
-
         hr {
             height: $standard-border-width;
             background-color: black;
