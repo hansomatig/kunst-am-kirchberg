@@ -14,18 +14,30 @@ form {
         letter-spacing: 1px;
         font-family: sans-serif;
         color: $grey;
+        border-radius: 0;
+
+        &:-webkit-any() {
+            border-radius: 0;
+        }
 
         &:focus {
-            &::placeholder{
+            &::placeholder {
                 color: black;
             }
+
             color: black;
             border-bottom: 2px solid black;
             outline: none;
         }
-        &[type=submit]{
+
+        &[type=submit] {
             border: 2px solid $grey;
-            border-bottom: 2px solid black;
+
+            &:focus,
+            &:active,
+            &:hover {
+                border-bottom: 2px solid black;
+            }
         }
     }
 }
