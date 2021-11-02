@@ -1,6 +1,6 @@
 ---
 title: Andreas Felger
+permalink: "/index.html"
 wiki: 
-permalink: /index.html
 ---
 
