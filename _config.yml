@@ -46,4 +46,4 @@ description: Write an awesome description for your new site here. You can edit t
 baseurl: ''
 url: https://kunstamkirchberg.de
 exclude:
-  - "README.md"
+- README.md
