@@ -12,6 +12,9 @@
         z-index: 20000;
         @media screen and (max-width: 800px) {
             position: relative;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 1rem;
         }
         @media screen and (min-width: 801px) {
             position: absolute;
