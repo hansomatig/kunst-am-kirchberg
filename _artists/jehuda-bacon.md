@@ -1,6 +1,6 @@
 ---
 title: Jehuda Bacon
 wiki: 
-image: "/assets/images/Download.jpg"
+image: "//assets/images/Download.jpg"
 ---
 

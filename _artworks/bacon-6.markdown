@@ -5,7 +5,7 @@ categories:
 - Mischtechnik
 position: 5
 gallery:
-- image: "assets/images/IMGP6970.JPG"
+- image: "/assets/images/IMGP6970.JPG"
 price: 3400
 is_available: true
 dimensions: 100 x 100 cm

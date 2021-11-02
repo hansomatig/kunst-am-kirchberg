@@ -5,7 +5,7 @@ categories:
 - Mischtechnik
 position: 1
 gallery:
-- image: "assets/images/IMGP6972.JPG"
+- image: "/assets/images/IMGP6972.JPG"
 price: 2800€
 is_available: true
 dimensions: 230 x 230 cm
