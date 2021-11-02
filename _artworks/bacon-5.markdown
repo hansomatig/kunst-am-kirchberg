@@ -5,7 +5,7 @@ categories:
 - Mischtechnik
 position: 9
 gallery:
-- image: "/assets/images/IMGP6969.JPG"
+- image: "/uploads/IMGP6969.JPG"
 price: 2800
 is_available: true
 dimensions: 120 x 60 cm
