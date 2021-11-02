@@ -5,7 +5,7 @@ categories:
 - Öl auf Leinwand
 position: 4
 gallery:
-- image: "/uploads/IMGP6965.JPG"
+- image: "assets/images/IMGP6965.JPG"
 price: 6000€
 year: 1918
 is_available: true
