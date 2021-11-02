@@ -32,6 +32,7 @@ form {
 
         &[type=submit] {
             border: 2px solid $grey;
+            border-radius: 0;
 
             &:focus,
             &:active,
