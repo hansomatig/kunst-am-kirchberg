@@ -7,7 +7,9 @@
     <link rel="canonical" href="{{site.url}}{{page.url}}">
     <link rel="shortcut icon" href="/uploads/favicon.png">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    {% if page.title == "Kontakt" %}
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    {% endif %}
     <style amp-boilerplate>
         body {
             -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;

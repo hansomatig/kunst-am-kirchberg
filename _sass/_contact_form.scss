@@ -2,6 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-bottom: 20vh;
 
     input,
     textarea {
@@ -10,7 +11,7 @@ form {
         border-bottom: 2px solid $grey;
         padding: .5rem;
         font-size: 1.1rem;
-        letter-spacing: 1.4px;
+        letter-spacing: 1px;
         font-family: sans-serif;
         color: $grey;
 

@@ -5,22 +5,26 @@
         margin: 0.75rem 0.75rem 0.75rem 1rem;
         min-width: 120px;
     }
+
     display: inline-block;
 
     .logo {
         top: 1rem;
         z-index: 20000;
+
         @media screen and (max-width: 800px) {
             position: relative;
             display: flex;
             justify-content: center;
             padding-bottom: 1rem;
         }
+
         @media screen and (min-width: 801px) {
             position: absolute;
             left: 1rem;
         }
     }
+
     .navbar-links {
         @media screen and (max-width: 800px) {
             display: flex;
@@ -30,42 +34,47 @@
 
         @media screen and (min-width: 801px) {
             margin-top: 100px;
+            width: 128px;
+
+
+            li:not(.grey) {
+                float: left;
+
+                &:nth-child(even) {
+                    float: right;
+                }
+            }
+
+            li.grey {
+                text-align: center;
+            }
         }
 
         list-style: none;
         padding: 0;
         display: inline-block;
-        hr {
-            height: $standard-border-width;
-            background-color: black;
-            border: none;
-            margin: 0.75rem 1rem 0.75rem 0;
-            width: 90%;
-            @media screen and (max-width: 800px) {
-                display: none;
-            }
-        }
 
         li {
             @media screen and (min-width: 801px) {
-                margin-bottom: 1rem;
                 &:first-child {
-                    margin-top: calc(2rem + 50px);
+                    margin-top: calc(1.5rem + 50px);
                 }
             }
 
-            @media screen and (max-width: 800px) {
-                margin-bottom: 1rem;
-            }
+            @media screen and (max-width: 800px) {}
+
+            margin-bottom: .5rem;
 
             a {
                 text-decoration: none;
                 color: rgb(0, 0, 0);
                 font-size: $nav-font-size;
+
                 &.underline {
                     text-decoration: underline;
                 }
             }
+
             &.grey a {
                 color: $grey;
             }
