@@ -3,6 +3,18 @@ title: Kontakt
 layout: default
 ---
 
-<h1>Kontakt</h1>
+<form method="post" action-xhr="https://submit.ws/test-campaign" target="_top" class="container">
+    <h1>Kontakt</h1>
 
-Nehmen Sie Kontakt auf:
+    <input type="text" placeholder="Ihr Vor- und Nachname*" required name="Name">
+    <input type="email" placeholder="Ihre Mail-Adresse*" required name="E-Mail-Adresse">
+    <input type="phone" placeholder="Ihre Telefonnummer" name="Telefonnummer">
+    <textarea name="Frage" rows="4" placeholder="Ihre Anfrage" ></textarea>
+    <input type="submit" value="Absenden" class="btn">
+    <div submit-success>
+        <div class="success">E-Mail erfolgreich versendet!</div>
+    </div>
+    <div submit-error>
+        <div class="warning">Das Versenden hat leider nicht geklappt. Sie können auch manuell E-Mails an {{ site.form_email }} senden.</div>
+    </div>
+</form>

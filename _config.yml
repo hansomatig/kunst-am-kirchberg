@@ -47,3 +47,4 @@ baseurl: ''
 url: https://kunstamkirchberg.de
 exclude:
 - README.md
+form_email: j.oertel@gmx.de

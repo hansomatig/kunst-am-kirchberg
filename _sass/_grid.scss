@@ -26,3 +26,11 @@
     justify-content: center;
     
 }
+
+.container{
+    max-width: 550px;
+    margin: 2rem auto 20vh;
+    p{
+        color: $grey;
+    }
+}

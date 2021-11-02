@@ -82,13 +82,12 @@
 </head>
 
 <body>
-    {% include sidebar.html %}
-    <main>
+        {% include sidebar.html %}
+        <main>
+            {{content}}
+            {% include footer.html %}
+        </main>
 
-        {{content}}
-        {% include footer.html %}
-    </main>
-    
 </body>
 
 </html>
