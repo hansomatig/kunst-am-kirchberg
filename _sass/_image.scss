@@ -1,24 +1,5 @@
-.carousel {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 .artworkContainer {
     position: relative;
-    &.home {
-        /* top: 150px; */
-    }
-    /* visibility: hidden;
-    opacity: 0;
-    transition: all 300ms linear;
-    &.visible {
-        visibility: visible;
-        opacity: 1;
-        transition-delay: 300ms;
-    } */
     .artwork {
         max-height: 75vh;
         margin: 1rem;
@@ -27,10 +8,6 @@
             object-fit: contain;
         }
     }
-}
-
-.footerLogo {
-    margin: $standard-height-1 0;
 }
 
 .indexLogo {
@@ -46,12 +23,6 @@
         &:first-child {
             margin-top: 0rem;
         }
-    }
-    .rightControl {
-        display: none;
-    }
-    .leftControl {
-        display: none;
     }
 }
 @media screen and (min-width: 801px) {
