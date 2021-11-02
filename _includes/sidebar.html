@@ -12,19 +12,20 @@
 
         {%for artist in site.artists%}
         <li>
-            <a href="{{artist.url}}">
+            <a href="{%if forloop.first%}/{%else%}{{artist.url}}{%endif%}"
+                class="{%if artist.title == page.title%}underline{%endif%}">
                 {{artist.title}}
             </a>
         </li>
         {%endfor%}
         <hr>
         <li class="grey">
-            <a href="/contact.html">
+            <a href="/contact.html" class="{%if page.title == 'Kontakt'%}underline{%endif%}">
                 Kontakt
             </a>
         </li>
         <li class="grey">
-            <a href="/imprint.html">
+            <a href="/imprint.html" class="{%if page.title == 'Impressum'%}underline{%endif%}">
                 Impressum
             </a>
         </li>
