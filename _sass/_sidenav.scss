@@ -8,29 +8,21 @@
     display: inline-block;
 
     .logo {
-        position: absolute;
         top: 1rem;
-        left: 1rem;
         z-index: 20000;
         @media screen and (max-width: 800px) {
-            .mobile {
-                display: none;
-            }
+            position: relative;
         }
         @media screen and (min-width: 801px) {
-            .mobile {
-                display: none;
-            }
+            position: absolute;
+            left: 1rem;
         }
     }
     .navbar-links {
         @media screen and (max-width: 800px) {
             display: flex;
             flex-direction: column;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            align-items: flex-end;
-            margin: 1rem 1rem 0 0;
+            align-items: center;
         }
 
         @media screen and (min-width: 801px) {
