@@ -5,7 +5,7 @@ categories:
 - Linde gekalkt
 gallery:
 - image: "/uploads/IMGP7234.JPG"
-price: 350
+price: 850 €
 year: 2018
 dimensions: 100 x 40 x 35
 artist: Anja Schwarz
