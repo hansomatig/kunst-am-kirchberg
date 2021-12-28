@@ -1,6 +1,9 @@
 ---
 title: Eulenglück
 date: 2021-12-28 20:10:00 Z
+categories:
+- Eiche
+- Schwarzeisen
 gallery:
 - image: "/uploads/IMGP7235.JPG"
 price: 350
