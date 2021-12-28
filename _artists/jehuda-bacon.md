@@ -1,7 +1,7 @@
 ---
 title: Jehuda Bacon
+permalink: "/index.html"
 position: 0
-wiki: 
 image: "//uploads/Download.jpg"
 ---
 
