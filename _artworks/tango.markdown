@@ -6,7 +6,7 @@ gallery:
   alt: Tango, Altes Treibriemenrad, Sackleinen, Stoff
 price: 600 €
 year: 2021
-dimensions: 126 x 102 x 11 xn
+dimensions: 126 x 102 x 11 cm
 artist: JOe
 number: '0001'
 ---
