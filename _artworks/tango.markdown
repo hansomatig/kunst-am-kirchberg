@@ -1,6 +1,10 @@
 ---
 title: Tango
 date: 2021-12-28 20:01:00 Z
+categories:
+- altes Treibriemenrad
+- Sackleinen
+- Stoff
 gallery:
 - image: "/uploads/IMGP7242.JPG"
   alt: Tango, Altes Treibriemenrad, Sackleinen, Stoff
