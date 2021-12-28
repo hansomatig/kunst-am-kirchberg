@@ -1,6 +1,8 @@
 ---
 title: Gaza I
 date: 2021-12-28 21:11:00 Z
+categories:
+- Linolschnitt
 gallery:
 - image: "/uploads/Bildschirmfoto%202021-12-28%20um%2022.07.47.png"
 price: 300 €
