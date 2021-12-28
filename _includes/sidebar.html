@@ -9,7 +9,7 @@
 
         {%for artist in site.artists%}
         <li>
-            <a href="{%if forloop.first%}/{%else%}{{artist.url}}{%endif%}"
+            <a href="{{artist.url}}"
                 class="{%if artist.title == page.title%}underline{%endif%}">
                 {{artist.title}}
             </a>
