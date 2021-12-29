@@ -10,7 +10,7 @@ gallery:
 price: 400 €
 year: 2021
 dimensions: 102 x 30 x 26 cm
-artist: Jens Christian
+artist: JENS CHRISTIAN
 number: '0002'
 ---
 
