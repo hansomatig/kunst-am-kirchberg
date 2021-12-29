@@ -7,7 +7,6 @@ position: 6
 gallery:
 - image: "/uploads/IMGP6966.JPG"
 price: 2800 €
-year: ca. 1960
 is_available: true
 dimensions: 80 x 50 cm
 artist: Jehuda Bacon
