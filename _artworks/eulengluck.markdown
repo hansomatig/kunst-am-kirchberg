@@ -6,7 +6,7 @@ categories:
 - Schwarzeisen
 gallery:
 - image: "/uploads/IMGP7235.JPG"
-price: 350
+price: 350 €
 year: 2021
 dimensions: 50 x 30 x 20 cm
 artist: Jens Christian
