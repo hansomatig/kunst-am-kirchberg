@@ -1,5 +1,5 @@
 ---
-title: Bacon_1
+title: ohne Titel
 date: 2021-06-08 19:24:00 Z
 categories:
 - Öl auf Leinwand
