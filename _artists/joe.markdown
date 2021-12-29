@@ -1,5 +1,5 @@
 ---
-title: JOe
+title: Jens Christian
 date: 2021-12-04 15:45:00 Z
 position: 2
 layout: artist
