@@ -8,7 +8,7 @@ gallery:
 price: 850 €
 year: 2018
 dimensions: 100 x 40 x 35
-artist: Anja Schwarz
+artist: ANJA SCHWARZ
 number: '0006'
 ---
 
