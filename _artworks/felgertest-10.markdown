@@ -9,7 +9,7 @@ gallery:
 price: 400 €
 is_available: true
 dimensions: 11 x 6 cm
-artist: Jehuda Bacon
+artist: JEHUDA BACON
 number: '0020'
 ---
 
