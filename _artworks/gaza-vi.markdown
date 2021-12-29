@@ -6,7 +6,7 @@ gallery:
 price: 300 €
 year: 2021
 dimensions: 36 x 24 cm
-artist: Adel al Taweel
+artist: ADEL AL TAWEEL
 number: '0013'
 ---
 
