@@ -9,7 +9,7 @@ gallery:
 price: 3200 €
 is_available: true
 dimensions: 120 x 60 cm
-artist: Jehuda Bacon
+artist: JEHUDA BACON
 number: '00016'
 ---
 
