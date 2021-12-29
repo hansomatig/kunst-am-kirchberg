@@ -9,7 +9,7 @@ gallery:
 price: 350
 year: 2021
 dimensions: 50 x 30 x 20 cm
-artist: JOe
+artist: Jens Christian
 number: '0003'
 ---
 
