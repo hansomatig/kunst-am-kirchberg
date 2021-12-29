@@ -9,7 +9,7 @@ gallery:
 price: 2800 €
 is_available: true
 dimensions: 80 x 50 cm
-artist: Jehuda Bacon
+artist: JEHUDA BACON
 number: '0015'
 ---
 
