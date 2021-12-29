@@ -9,7 +9,7 @@ gallery:
 price: 2800 €
 is_available: true
 dimensions: 120 x 60 cm
-artist: ADEL AL TAWEEL
+artist: JEHUDA BACON
 number: '00017'
 ---
 
