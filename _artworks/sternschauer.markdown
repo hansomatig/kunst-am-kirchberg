@@ -7,7 +7,7 @@ gallery:
 - image: "/uploads/IMGP7231.JPG"
 price: 500 €
 dimensions: 170 x 25 x 25 cm
-artist: Anja Schwarz
+artist: ANJA SCHWARZ
 number: '0005'
 ---
 
