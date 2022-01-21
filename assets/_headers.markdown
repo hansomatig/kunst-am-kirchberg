@@ -1,6 +1,6 @@
 ---
+permalink: _headers
 layout: none
-permalink: "_headers"
 ---
 
 /*

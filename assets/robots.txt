@@ -1,6 +1,6 @@
 ---
+permalink: robots.txt
 layout: none
-permalink: "robots.txt"
 ---
 
 User-agent: *
