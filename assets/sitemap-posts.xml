@@ -1,6 +1,6 @@
 ---
+permalink: sitemap-posts.xml
 layout: none
-permalink: "sitemap-posts.xml"
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>

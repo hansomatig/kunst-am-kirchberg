@@ -1,6 +1,6 @@
 ---
+permalink: humans.txt
 layout: none
-permalink: "humans.txt"
 ---
 
 /* TEAM */
