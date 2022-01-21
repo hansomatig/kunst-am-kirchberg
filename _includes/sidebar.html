@@ -6,8 +6,10 @@
     </a>
 
     <ul class="navbar-links">
+        {%assign artists = site.artists | sort: "position"%}
 
-        {%for artist in site.artists%}
+        {%for artist in artists%}
+        
         <li>
             <a href="{{artist.url}}"
                 class="{%if artist.title == page.title%}underline{%endif%}">
