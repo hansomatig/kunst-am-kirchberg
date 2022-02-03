@@ -7,14 +7,14 @@ layout: default
 
 {% for artwork in artworks %}
 <div class="artworkContainer">
-    <amp-img class="artwork desktop" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16">
+    <amp-img class="artwork desktop" src="{{artwork.gallery[0].image}}" layout="responsive" height="9" width="16" alt="{{page.title}}: {{artwork.title}} | {{artwork.categories | join: ", "}}, {{artwork.dimensions}}, {{artwork.year}}, {{artwork.price}}, {{artwork.number}}">
     </amp-img>
-    <amp-img class="artwork mobile" src="{{artwork.gallery[0].image}}" layout="responsive" height="4" width="5">
+    <amp-img class="artwork mobile" src="{{artwork.gallery[0].image}}" layout="responsive" height="4" width="5" alt="{{page.title}}: {{artwork.title}} | {{artwork.categories | join: ", "}}, {{artwork.dimensions}}, {{artwork.year}}, {{artwork.price}}, {{artwork.number}}">
     </amp-img>
 
     <div class="caption">
         <span class="black">
-            {{artwork.title}}
+            {{page.title}}: {{artwork.title}}
         </span>
         |
         <span>
